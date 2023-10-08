@@ -1,0 +1,47 @@
+body{
+    background-image: url(images/R.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;}
+#txt1{
+    text-align: center; color:aliceblue
+}
+#txt2{
+   text-align: center; color:aliceblue
+}
+#txt3{
+    text-align: center; color:aliceblue
+}
+#Title{
+    text-align: center; color:aliceblue; font-family:Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif; text-shadow: blue -3px -3px
+}
+#container{
+    color:aliceblue
+}
+#ch1{
+    font-size: x-large;
+}
+#alltxt{
+    font-size:large; font-style:oblique; font-weight: bold; text-align: center;
+}
+
+
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block
+}
+.pagination a.active{
+    background-color: rgb(17, 0, 255);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color:rgb(114, 113, 113);
+}
